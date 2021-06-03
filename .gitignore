@@ -1,0 +1,13 @@
+.vscode/
+node_modules/
+build/
+*.torrent
+*.mkv
+*.mp4
+.dist
+.env
+# exclude everything
+db/pgdata/*
+
+# exception to the rule
+!db/pgdata/PG_VERSION

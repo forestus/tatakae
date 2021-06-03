@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" href="app/assets/images/favicon.dark.png">
+<link rel="stylesheet" href="app/assets/app.css?id=a5487e01d6588c75f70c">
+
+
+
+<title>Torrent/1999/Fall/One Piece/Batch &bull; Erai-raws</title>
+
+<div id="app" class="flex flex-col min-h-screen font-sans dark-mode">
+        <header id="header" class="bg-blue-600 shadow sticky top-0">
+    <div class="container flex justify-between flex-wrap items-center mx-auto p-4 md:flex-row">
+        <div class="flex-1 font-mono text-white text-sm tracking-tight overflow-x-auto whitespace-no-wrap py-1">
+            <a href="." class="inline-block hover:underline">
+                Home
+            </a>
+
+                                                / <a href="?dir=Torrent" class="inline-block hover:underline">Torrent</a>
+                                    / <a href="?dir=Torrent/1999" class="inline-block hover:underline">1999</a>
+                                    / <a href="?dir=Torrent/1999/Fall" class="inline-block hover:underline">Fall</a>
+                                    / <a href="?dir=Torrent/1999/Fall/One%20Piece" class="inline-block hover:underline">One Piece</a>
+                                    / <a href="?dir=Torrent/1999/Fall/One%20Piece/Batch" class="inline-block hover:underline">Batch</a>
+                                    </div>
+
+        <button class="inline-block text-white mx-2 hover:text-gray-400 md:hidden" v-on:click="toggleMenuVisibility">
+            <div v-if="menuOpen">
+                <i class="fas fa-times fa-lg fa-fw"></i>
+            </div>
+            <div v-else>
+                <i class="fas fa-ellipsis-v fa-lg fa-fw"></i>
+            </div>
+        </button>
+    </div>
+</header>
+
+    <div id="content" class="flex flex-col flex-grow container-fluid mx-12 px-4">
+        <div class="my-4">
+            <div class="flex justify-between font-bold p-4">
+                <div class="flex-grow font-mono mr-2">
+                    File Name
+                </div>
+
+                <div class="font-mono text-right w-1/6 mx-2 hidden sm:block">
+                    Size
+                </div>
+
+                <div class="font-mono text-right w-1/4 ml-2 hidden sm:block">
+                    Date
+                </div>
+            </div>
+
+            <ul id="file-list">
+                <li>
+                                            <a
+    href="?dir=Torrent/1999/Fall/One%20Piece"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-level-up-alt fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            ..
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            —
+        </div>
+    </div>
+</a>
+
+                                    </li>
+
+                <li>
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20001~100%20%5B1080p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 001~100 [1080p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520001\u007E100\u002520\u00255B1080p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            319.34KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20001~100%20%5B720p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 001~100 [720p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520001\u007E100\u002520\u00255B720p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            166.21KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20101~200%20%5B1080p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 101~200 [1080p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520101\u007E200\u002520\u00255B1080p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            218.42KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20101~200%20%5B720p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 101~200 [720p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520101\u007E200\u002520\u00255B720p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            127.63KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20201~300%20%5B1080p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 201~300 [1080p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520201\u007E300\u002520\u00255B1080p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            221.66KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20201~300%20%5B720p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 201~300 [720p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520201\u007E300\u002520\u00255B720p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            125.11KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20301~400%20%5B1080p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 301~400 [1080p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520301\u007E400\u002520\u00255B1080p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            219.00KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20301~400%20%5B720p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 301~400 [720p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520301\u007E400\u002520\u00255B720p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            125.45KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20401~500%20%5B1080p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 401~500 [1080p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520401\u007E500\u002520\u00255B1080p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            200.27KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20401~500%20%5B720p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 401~500 [720p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520401\u007E500\u002520\u00255B720p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            116.81KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20501~600%20%5B1080p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 501~600 [1080p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520501\u007E600\u002520\u00255B1080p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            183.74KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20501~600%20%5B720p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 501~600 [720p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520501\u007E600\u002520\u00255B720p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            107.92KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20601~700%20%5B1080p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 601~700 [1080p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520601\u007E700\u002520\u00255B1080p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            200.95KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20601~700%20%5B720p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 601~700 [720p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520601\u007E700\u002520\u00255B720p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            117.49KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20701~800%20%5B1080p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 701~800 [1080p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520701\u007E800\u002520\u00255B1080p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            279.41KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:48 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20701~800%20%5B720p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 701~800 [720p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520701\u007E800\u002520\u00255B720p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            146.60KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:47 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20801%20~%20900%20%5B1080p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 801 ~ 900 [1080p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520801\u002520\u007E\u002520900\u002520\u00255B1080p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            525.82KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:47 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20801%20~%20900%20%5B720p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 801 ~ 900 [720p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520801\u002520\u007E\u002520900\u002520\u00255B720p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            247.96KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            15:00:47 - 07/01/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20892%20~%20920%20%5B1080p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 892 ~ 920 [1080p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520892\u002520\u007E\u002520920\u002520\u00255B1080p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            200.10KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            16:39:00 - 12/05/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20892%20~%20920%20%5B480p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 892 ~ 920 [480p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520892\u002520\u007E\u002520920\u002520\u00255B480p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            54.79KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            16:39:00 - 12/05/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20892%20~%20920%20%5B720p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 892 ~ 920 [720p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520892\u002520\u007E\u002520920\u002520\u00255B720p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            103.70KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            16:39:00 - 12/05/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20921%20~%20973%20%5B1080p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 921 ~ 973 [1080p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520921\u002520\u007E\u002520973\u002520\u00255B1080p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            364.91KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            16:39:00 - 12/05/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20921%20~%20973%20%5B480p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 921 ~ 973 [480p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520921\u002520\u007E\u002520973\u002520\u00255B480p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            99.20KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            16:39:00 - 12/05/2021
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Torrent/1999/Fall/One%20Piece/Batch/%5BErai-raws%5D%20One%20Piece%20-%20921%20~%20973%20%5B720p%5D%5BMultiple%20Subtitle%5D.torrent"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-file fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            [Erai-raws] One Piece - 921 ~ 973 [720p][Multiple Subtitle].torrent
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Torrent\/1999\/Fall\/One\u002520Piece\/Batch\/\u00255BErai\u002Draws\u00255D\u002520One\u002520Piece\u002520\u002D\u002520921\u002520\u007E\u002520973\u002520\u00255B720p\u00255D\u00255BMultiple\u002520Subtitle\u00255D.torrent')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            188.60KB
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            16:39:00 - 12/05/2021
+        </div>
+    </div>
+</a>
+
+                                    </li>
+            </ul>
+        </div>
+
+            </div>
+
+    <footer class="container border-t-2 border-gray-800 text-center mx-auto px-4 py-8">
+    <div class="flex flex-col justify-center items-center">
+        <p class="mb-4">
+			<a  class="underline hover:text-blue-700" style="text-decoration: none;" href="https://www.erai-raws.info/">Erai-raws</a> || 2017 - 2021
+        </p>
+
+        <div class="flex">
+            <a href="https://www.facebook.com/Erai.raws/" class="text-gray-400 mx-2 hover:text-github">
+                <i class="fab fa-facebook fa-lg"></i>
+            </a>
+
+            <a href="https://twitter.com/Erai_raws" class="text-gray-400 mx-2 hover:text-github">
+                <i class="fab fa-twitter fa-lg"></i>
+            </a>
+
+            <a href="https://www.pinterest.com/erairaws/" class="text-gray-400 mx-2 hover:text-github">
+                <i class="fab fa-pinterest fa-lg"></i>
+            </a>
+
+            <a href="https://discord.gg/2PfWaar" class="text-gray-400 mx-2 hover:text-github">
+                <i class="fab fa-discord fa-lg"></i>
+            </a>
+
+            <a href="https://t.me/Erai_raws" class="text-gray-400 mx-2 hover:text-github">
+                <i class="fab fa-telegram fa-lg"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <div class="fixed bottom-0 left-0 right-0 pointer-events-none">
+    <div class="container flex justify-end mx-auto px-4 py-10">
+        <button id="scroll-to-top" ref="scrollToTop"  title="Scroll to Top"
+            class="flex justify-center items-center w-12 h-12 right-0 rounded-full shadow-lg bg-blue-600 text-white cursor-pointer pointer-events-auto hover:bg-blue-700 hidden"
+            onclick="window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });"
+        >
+            <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+    </div>
+</div>
+    <file-info-modal ref="fileInfoModal"></file-info-modal>
+</div>
+
+<script src="app/assets/app.js?id=961c9bcbd3826d186df2" defer></script>
